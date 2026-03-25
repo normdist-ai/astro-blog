@@ -1,6 +1,12 @@
 name = "astro-blog"
 compatibility_date = "2025-05-21"
+workers_dev = true
 assets = { directory = "./dist", binding = "ASSETS" }
+
+# Custom Domain configuration
+# Note: DNS record configured separately via Cloudflare API
+# www.lean.org.cn → astro-blog.nuaa.workers.dev
+# Current DNS Record ID: 2c7ababc5e8ee6b70a1456d2f5c05562
 
 # Cloudflare Images binding (optional)
 # images = { binding = "IMAGES" }
